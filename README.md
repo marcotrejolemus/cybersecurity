@@ -1,10 +1,19 @@
-# cybersecurity
+## cybersecurity
 This repository is your one-stop destination for exploring, practicing, and mastering the essential concepts and practical skills in cybersecurity
 
 #GitHub Repository Description: Cybersecurity Learning Hub
 Welcome to the Cybersecurity Learning Hub! 🛡️
 
 This repository is your one-stop destination for exploring, practicing, and mastering the essential concepts and practical skills in cybersecurity. Whether you're a beginner or an experienced professional, this hub is designed to support your journey in safeguarding digital assets and building a secure cyber environment.
+
+## Targets:
+Conducting a security audit
+Analyzing network structure and security
+Using Linux commands to manage file permissions
+Applying filters to SQL queries
+Identifying vulnerabilities for a small business
+Documenting incidents with an incident handler’s journal 
+Importing and parsing a text file in a security-related scenario
 
 What You'll Find in This Repository:
 #Theory & Fundamentals:

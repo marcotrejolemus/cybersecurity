@@ -91,3 +91,4 @@ Shows possible vulnerabilities based on Nmap scripts.
 Checks if the target is exposed publicly on the internet.
 Displays any found information like open ports, organization, and OS.
 
+![Script]([https://github.com/marcotrejolemus/portafolio/blob/main/assets/badge-springFramework](https://github.com/marcotrejolemus/cybersecurity/edit/main/SecurityScans/)AutoVulnerabilitiesScan.png)

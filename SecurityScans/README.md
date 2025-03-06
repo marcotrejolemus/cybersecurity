@@ -90,5 +90,5 @@ Shows possible vulnerabilities based on Nmap scripts.
 
 Checks if the target is exposed publicly on the internet.
 Displays any found information like open ports, organization, and OS.
-![Python_Script](https://github.com/marcotrejolemus/cybersecurity/tree/main/SecurityScans/AutoVulnerabilitiesScan.png) Python Script 
+![Python_Script](https://github.com/marcotrejolemus/cybersecurity/blob/main/SecurityScans/AutoVulnerabilitiesScan.png) Python Script 
 

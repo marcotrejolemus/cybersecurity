@@ -80,6 +80,7 @@ Save the script as security_scan.py
 python security_scan.py
 
 Enter the target IP or domain when prompted.
+
 #🔹 Step 4: Understanding the Output
 ✅ Port Scanning Results:
 

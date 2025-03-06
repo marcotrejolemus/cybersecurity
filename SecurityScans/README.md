@@ -9,12 +9,12 @@ python-nmap – For automating Nmap scans
 requests – For checking web security vulnerabilities
 shodan (optional) – For checking exposed services on the internet
 
-#🔹 Step 1: Install Dependencies
+# 🔹 Step 1: Install Dependencies
 
 Before running the script, install the required Python modules:
 pip install python-nmap requests shodan
 
-#🔹 Step 2: Python Script for Automated Vulnerability Scanning
+# 🔹 Step 2: Python Script for Automated Vulnerability Scanning
 This script:
 ✅ Scans open ports on a target system
 ✅ Identifies potential vulnerabilities (based on Nmap scripts)
@@ -72,7 +72,7 @@ This script:
     scan_target(target_ip)
     check_shodan(target_ip)
 
-#🔹 Step 3: Running the Script
+# 🔹 Step 3: Running the Script
 Save the script as security_scan.py
 
 # Run it in the terminal:
@@ -81,7 +81,7 @@ python security_scan.py
 
 Enter the target IP or domain when prompted.
 
-#🔹 Step 4: Understanding the Output
+# 🔹 Step 4: Understanding the Output
 ✅ Port Scanning Results:
 
 # Lists all open ports and running services.

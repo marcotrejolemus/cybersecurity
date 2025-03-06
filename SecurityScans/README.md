@@ -20,19 +20,19 @@ This script:
 ✅ Identifies potential vulnerabilities (based on Nmap scripts)
 ✅ Checks if services are exposed on the internet (using Shodan API)
 
-import nmap
-import requests
-import shodan
+    import nmap
+    import requests
+    import shodan
 
-//# Replace with your Shodan API key (sign up at https://www.shodan.io/)
-SHODAN_API_KEY = "YOUR_SHODAN_API_KEY"
+    # Replace with your Shodan API key (sign up at https://www.shodan.io/)
+    SHODAN_API_KEY = "YOUR_SHODAN_API_KEY"
 
-//#Initialize scanners
-nm = nmap.PortScanner()
-shodan_api = shodan.Shodan(SHODAN_API_KEY)
+    # Initialize scanners
+    nm = nmap.PortScanner()
+    shodan_api = shodan.Shodan(SHODAN_API_KEY)
 
-//#Function to scan a target IP or domain
-def scan_target(target):
+    # Function to scan a target IP or domain
+    def scan_target(target):
     print(f"Scanning target: {target}")
 
     # Run Nmap scan for open ports
@@ -54,8 +54,8 @@ def scan_target(target):
                     for script, output in nm[host][proto][port]['script'].items():
                         print(f"        - {script}: {output}")
 
-//#Function to check if the target is exposed on the internet using Shodan
-def check_shodan(target):
+    # Function to check if the target is exposed on the internet using Shodan
+    def check_shodan(target):
     print(f"\nChecking {target} on Shodan...")
     try:
         result = shodan_api.host(target)
@@ -66,13 +66,13 @@ def check_shodan(target):
         print("    - Open Ports:", result["ports"])
     except shodan.APIError:
         print("[-] No public data found on Shodan.")
-
-//#Run the scan and security checks
-if __name__ == "__main__":
+    # Run the scan and security checks
+    if __name__ == "__main__":
     target_ip = input("Enter target IP/Domain: ")
     scan_target(target_ip)
     check_shodan(target_ip)
-🔹 Step 3: Running the Script
+
+#🔹 Step 3: Running the Script
 Save the script as security_scan.py
 
 # Run it in the terminal:

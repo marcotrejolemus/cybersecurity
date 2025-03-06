@@ -77,7 +77,7 @@ Save the script as security_scan.py
 
 # Run it in the terminal:
 
-python security_scan.py
+    python security_scan.py
 
 Enter the target IP or domain when prompted.
 

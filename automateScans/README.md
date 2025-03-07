@@ -15,8 +15,9 @@ It detects **open ports, running services, and possible vulnerabilities**, then 
 
 ## 🛠️ Installation
 
-### 1️⃣ **Clone the Repository**
+
 ```bash
+### 1️⃣ **Clone the Repository**
 git clone https://github.com/marcotrejolemus/cybersecurity/security-scanner.git
 cd security-scanner
 ### 2️⃣ Install Required Dependencies

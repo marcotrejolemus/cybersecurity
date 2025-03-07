@@ -13,9 +13,4 @@ It detects **open ports, running services, and possible vulnerabilities**, then 
 
 ---
 
-## 🛠️ Installation
 
-### 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/your-username/security-scanner.git
-cd security-scanner
